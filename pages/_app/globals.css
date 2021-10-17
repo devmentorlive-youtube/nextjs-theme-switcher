@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply dark:bg-gray-900 dark:text-white transition-colors delay-100;
+    @apply text-gray-900 bg-white;
+  }
+
+  h1 {
+    @apply text-4xl tracking-wider leading-4 my-4;
+  }
+
+  p {
+    @apply my-4;
+  }
+}
